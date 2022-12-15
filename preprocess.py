@@ -46,7 +46,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Im2Latex Data Preprocess Program")
     parser.add_argument("--data_path", type=str,
-                        default="./data/", help="The dataset's dir")
+                        default="/root/data_ocr/torch_data/", help="The dataset's dir")
     args = parser.parse_args()
 
     splits = ["validate", "test", "train"]

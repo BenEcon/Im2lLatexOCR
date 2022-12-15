@@ -63,8 +63,8 @@ python build_vocab.py
 **Train:**
 
      python train.py \
-          --data_path=[data dir] \
-          --save_dir=[the dir for saving ckpts] \
+          --data_path=/root/data_ocr/torch_data \
+          --save_dir=/ \
           --dropout=0.2 --add_position_features \
           --epoches=25 --max_len=150
 **Evaluate:**
